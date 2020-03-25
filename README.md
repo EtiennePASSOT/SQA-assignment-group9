@@ -77,6 +77,8 @@ else
 ```
 Here, reading is quite simple in both cases, but good practice in certain languages prefers to use one or the other.
 
+In conclusion, it is important to respect the code standards provided by the different languages. When it is possible to write in different ways, development teams must choose the writing that suits them in order to have a uniform code.
+
 
 ---
 ### Languages Convention
