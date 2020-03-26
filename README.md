@@ -11,7 +11,7 @@
 
 **What's pair programming ?**
 
-Pair programming is a development method where two developers code on the same computer. The first, the one who writes the code is called the driver and the second observer assists the driver by correcting potential errors and proposing development alternatives.
+Pair programming is a development method where two developers work on the same computer. The first, the one who writes the code is called the driver and the second observer assists the driver by correcting potential errors and proposing development alternatives.
 
 **Quality and Productivity**
 Even though this practice is often abandoned by companies that think it is a waste of human resources, several studies have looked at the relative productivity of a pair of programmers versus a single programmer.
@@ -27,7 +27,7 @@ This team spirit significantly improves the well-being of the employees in their
 
 **Indicators of non-performance**
 
-Beware of non-performance indicators that can be a brake on au pair programming. When training pairs, it is important to choose the employees who will work together according to the objectives of the activity.
+Beware of non-performance indicators that can be a brake on pair programming. When training pairs, it is important to choose the employees who will work together according to the objectives of the activity.
 
 * Silence: Pair programming requires you to program aloud and share your point of view with your partner. Persistent silence indicates a lack of collaboration.
 * Disengagement: One member loses interest in the project and goes about his or her business.
