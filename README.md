@@ -63,3 +63,18 @@ Here is a non-exhaustive list of several applications:
 * Microsoft To-do
 * Google Task
 
+---
+
+###Convention Check
+
+**What's convention check ?**
+The convention checks and verifies compliance with the code standards and good practices of the languages in question.
+
+**How to check ?**
+This can be checked simply by rereading the code (it is more efficient to read another developer's code to better spot errors) or/and using automated tools called coding-style checkers. There are many of these on github for many different languages.
+
+**Help to dev**
+In order to produce clean code with development standards, you can also use tools on text editors (VScode, Atom ...) or IDE (Jetbrain ...). In all these softwares, we can install modules that allow us to correct our convention errors such as spaces, indentation or even variable declaration.
+
+
+So there are different solutions to check the good respect of the standards of your code. All these solutions have been created to help the developer in his work. It's up to each one to choose the tool that suits him best
