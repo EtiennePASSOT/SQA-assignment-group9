@@ -40,3 +40,26 @@ Pair programming is therefore a good alternative to development alone. It allows
 [Read More](https://en.wikipedia.org/wiki/Pair_programming)
 
 ---
+
+###Checklist
+
+**The importance of checklists**
+
+Checklists, in support of development and organization tools, are an essential tool for project monitoring and task completion. They allow you to note all the important points and discuss / carry out on the project during one day for example.
+
+**Checklists for code reviews**
+
+It is important to address this point in the coding review section because this tool can also be used for code reviews.
+You can write down all the points to be discussed, the important things to check. Once a task is done, just check the corresponding box. It's also a tool that will free space in its memory and allow us to concentrate on the essential tasks in the work. In fact, instead of keeping in the corner of our head all the tasks we have to do, we write them down as we think about them and thus free up space in our brain to concentrate at best.
+
+**Checklists Tools**
+
+There are a large number of tools for making checklists called ToDoApps. On a smartphone or computer, it is up to you to choose the tool that suits you best.
+
+Here is a non-exhaustive list of several applications:
+
+* Any.do
+* Todoist
+* Microsoft To-do
+* Google Task
+
