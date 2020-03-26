@@ -30,7 +30,7 @@ This team spirit significantly improves the well-being of the employees in their
 Beware of non-performance indicators that can be a brake on pair programming. When training pairs, it is important to choose the employees who will work together according to the objectives of the activity.
 
 * Silence: Pair programming requires you to program aloud and share your point of view with your partner. Persistent silence indicates a lack of collaboration.
-* Disengagement: One member loses interest in the project and goes about his or her business.
+* Disengagement: One member loses interest in the project and will go about their business.
 * Deletion: When one member is more experienced than another, the novice is content to watch the expert perform the majority of the development tasks.
 * Relationship problems: the two members of the pair do not get along and do not wish to work together.
 
@@ -50,7 +50,7 @@ Checklists, in support of development and organization tools, are an essential t
 **Checklists for code reviews**
 
 It is important to address this point in the coding review section because this tool can also be used for code reviews.
-You can write down all the points to be discussed, the important things to check. Once a task is done, just check the corresponding box. It's also a tool that will free space in its memory and allow us to concentrate on the essential tasks in the work. In fact, instead of keeping in the corner of our head all the tasks we have to do, we write them down as we think about them and thus free up space in our brain to concentrate at best.
+You can write down all the points to be discussed, the important things to check. Once a task is done, just check the corresponding box. It's also a tool that will free space in our memory and allow us to concentrate on the essential tasks in the work. In fact, instead of keeping in the corner of our head all the tasks we have to do, we write them down as we think about them and thus free up space in our brain to concentrate at best.
 
 **Checklists Tools**
 
