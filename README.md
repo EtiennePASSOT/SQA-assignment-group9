@@ -40,3 +40,26 @@ Pair programming is therefore a good alternative to development alone. It allows
 [Read More](https://en.wikipedia.org/wiki/Pair_programming)
 
 ---
+### Pull request
+
+**What's a pull request ?**
+
+A pull request in programming could be defined as a way to ask for a code review on a feature or a piece of code we have done and on which we want a feedback from our colleagues. It's a very useful and a common way in programming to ensure that the code is working correctly, following the coding styles and convention that have been chose for the project and mostly that the piece of code is able to be added to the existing one without any problem.
+
+**How to create a pull request in GitHub**
+
+First, you need to commit and push a piece of code on the branch you are working on. This can be done either on GitHub directly, by using and IDE or even using terminal with Git command.
+
+Then, you have to on your GitHub repository, in the pull request section.
+Click on the button "New pull request", select first the branch where you want to merge the code and second, the branch from which you want to merge i.e the branch where you just pushed your code.
+
+You will see the comparison page which draw you the differences between the two branches you are going to merge including the previous commit on the destination branch if there are already some, and the files that have been updated with their content and more.
+Click on "Create pull request"
+
+Finally, add a title to your pull request and comments if needed. Aside from this, you will be able to assign yourself and people involved if there are some, and select one or more reviewers that must approve your changes before merge.
+To finalize your pull create, click on "Create pull request" or the down arrow if you want to just draft the pull request at the moment.
+
+
+[Read More](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+
+---
