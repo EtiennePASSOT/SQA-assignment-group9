@@ -42,6 +42,11 @@ if (age < 18) {
 ```
 The last is more meaningful and is more comprehensive thanks to the name and its easily identifiable role from the first reading. The same must be done with the function names!
 
+Then remember to respect these rules in a consistent way so that our reading of the code is not disturbed by changes without explanation.
+Also be careful not to reuse the same variable name in the same class in different contexts, this provides more simplicity for understanding and maintainability.
+Do not use a long name, it makes the code more difficult to read and can make the compilation more difficult with some compilers.
+If you want other do's and don'ts to make sure you have a meaningful and meaningful code, I advise you to take a look [over here](https://dzone.com/articles/best-practices-variable-and)
+
 ---
 ### Coding Style
 
