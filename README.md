@@ -139,6 +139,40 @@ Here is a non-exhaustive list of Symfony conventions
 [Read more](https://symfony.com/doc/current/contributing/code/standards.html)
 
 ---
+### Comments Standards
 
+**When should we comment?**
+When the need or need comfort required so that other group members can understand easily function and functionality.
+
+Remember that the comments are portions of the source code disregarded by the compiler or interpreter, because they are not necessary for the program to run. They are usually inserted in the code so that it is easy to understand and that it can be changed easily in the  future.
+
+Developer tends to underestimate the benefits of commenting, but comment **!=** document.
+
+Let us separate once and for all the expression document to comment.
+
+Documenting means providing a description of its application, all of its public access points and dependencies.
+
+Examples:
+
+```
+/*
+    Comments
+*/
+```
+Or:
+```
+// Comments
+```
+Or:
+```
+/**
+* Comments
+*/
+```
+Or again:
+```
+x = x + 1                 # Increment x
+```
+[Different way to comment](https://en.wikipedia.org/wiki/Comment_(computer_programming))
 
 # Code reviews
