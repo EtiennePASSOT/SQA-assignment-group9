@@ -11,7 +11,7 @@
 
 **What's pair programming ?**
 
-Pair programming is a development method where two developers work on the same computer. The first, the one who writes the code is called the driver and the second observer assists the driver by correcting potential errors and proposing development alternatives.
+Pair programming is a development method where two developers work on the same computer. The first, the one who writes the code is called the driver and the second, the observer, assists the driver by correcting potential errors and proposing development alternatives.
 
 **Quality and Productivity**
 Even though this practice is often abandoned by companies that think it is a waste of human resources, several studies have looked at the relative productivity of a pair of programmers versus a single programmer.
@@ -63,3 +63,8 @@ Here is a non-exhaustive list of several applications:
 * Microsoft To-do
 * Google Task
 
+**To go further**
+
+It is possible with some tools like Trello or Github project to go further.
+These two tools allow you to create action lists more detailed than a simple checklist. You can create lists and detail the checklist, comment on it, assign people to the task. Several other options are available that you can discover by testing the application and choose the one that suits you.
+In the case of Trello and Github Project, you can also automate tasks related to git commits. For example, when the task number (which is called a ticket) is quoted in a commit, the task is checked.
