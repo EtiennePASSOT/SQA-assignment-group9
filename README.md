@@ -18,6 +18,30 @@ For example, there are several typographic standards for naming variables:
 
 [Read more](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)
 
+These same conventions can be used to define function names or file names.
+However, beware, these naming rules don't stop you from thinking. So you have to take an account other elements taken into account such as:
+The meaning of the name of the variable we are going to name. It has to make sense for the oncomprehend its meaning in function.
+If my function is written like this:
+```
+if (idx < 18) {
+    var = var + 1;
+    return false;
+} else {
+    return true;  
+}
+```
+Or like this:
+```
+if (age < 18) {
+    year = year + 1;
+    return false;
+} else {
+    return true;
+}
+
+```
+The last is more meaningful and is more comprehensive thanks to the name and its easily identifiable role from the first reading. The same must be done with the function names!
+
 ---
 ### Coding Style
 
