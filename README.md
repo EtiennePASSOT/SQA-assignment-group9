@@ -1,7 +1,25 @@
 # Introduction
 
 # Task estimation
+---
+### Project estimation
+**What's a project ?**
+A project is defined by "an individual or collaborative enterprise that is carefully planned to achieve a particular aim".
 
+Before defining a task, we need to define the overall project. That is, we need to need to think about several points that will help us to better define later the project tasks and their estimation.
+The subject must be clarified to avoid confusion and misunderstanding during the project development. To ensure the project is understood by the whole team, meetings must be organized frequently during which:
+
+- [ ] Requirements should be defined or redefined
+- [ ] Long-term, mid-term and short-term objectives are then defined or redefined
+- [ ] In some case, a new specific feature asked by the client may be defined
+- [ ] All the tasks that need to be done are defined
+- [ ] Team members that will be involved
+- [ ] Project deadline might be defined
+
+The above points are essential to plan the project the best we can. It will be important to repeat as much as possible this kind of meeting to ensure the project is going well over the time. Doing frequently meetings allow the whole team to be aware of the project advancement, if there is something new or an issue that must be treated in urge. It's also a way to ensure that everyone is working efficiently on the project priorities.
+
+
+---
 # Coding standards
 ---
 ### Coding Style
