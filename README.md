@@ -39,4 +39,19 @@ Pair programming is therefore a good alternative to development alone. It allows
 
 [Read More](https://en.wikipedia.org/wiki/Pair_programming)
 
+### Integration tools
+
+As said above, continuous integration is an important practice in software development and nowadays there are many tools that can be used to easily setup the integration part in your project such as:
+
+* TravisCI
+* CircleCI
+* Jenkins
+* ...
+
+Most of them could be easily integrated with GitHub, GitLab etc in order to as mentionned before, create a pull request with a merge restriction until all unit tests are passing.
+
+But, continuous integration is only a part of the pipeline, other tools are available to get more information about the code tested such as coverage tools.
+
+[Example of integration tools](https://code-maze.com/top-8-continuous-integration-tools/)
+
 ---
