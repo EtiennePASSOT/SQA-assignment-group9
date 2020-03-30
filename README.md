@@ -7,7 +7,7 @@
 To begin, in order for the working group to be effective and coordinated, members need to put themselves agree on several points:
 ### Naming Convention
 
-A naming convention in programming is a set of rules and coding standards for choosing the rules that will make up our source code, file identifiers and documentation. The goal is to make source code easier to read with less understanding effort to do (as if we were talking the same language and which we did not need to translate in our head). It also improves the appearance code, to avoid names that are too long or abbreviations and name identifiers that would not be understandable than for the author of the code.
+A naming convention in programming is a set of rules and coding standards for choosing the rules that will make up our source code, file identifiers and documentation. The goal is to make source code easier to read with less understanding effort to do (as if we were talking the same language and which we did not need to translate in our head). It also improves the appearance code, to avoid names that are too long or abbreviations and name identifiers that would not be understandable only by for the author of the code.
 
 Each convention has its advantages and disadvantages depending on the languages, and each person can have their preferences. So, it is very important that the group that will work together on the same project meet upstream of the project to agree on these rules to be established. It is also necessary that the potentials groups that will work together are aware of these conventions chosen to respect them or, at least, understand code more easily when they need to read or work on it.
 
