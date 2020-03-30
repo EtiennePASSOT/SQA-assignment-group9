@@ -101,3 +101,24 @@ But, continuous integration is only a part of the pipeline, other tools are avai
 [Example of integration tools](https://code-maze.com/top-8-continuous-integration-tools/)
 
 ---
+
+### Coverage tools
+
+As mentioned before, coverage tools are another part of a good development pipeline. To explain it in a simple way, they are tools that analyze a piece of code and determine a percentage of line covered by the unit tests we have previously setup.
+The more the percentage is high the more the code is covered by these unit tests.
+
+**How coverage is calculated**
+
+To determine how much a code is covered by the unit tests, the coverage tools will evaluate a piece of code and all the posssibilities of running this piece of code.
+
+```
+if (age > 13) {
+  return true;
+} else {
+  return false;
+}
+```
+
+In the code above, there are only two possibilities, either you enter in the if scope, either in the else. The tool will so check if the function containing this piece of code is tested on the both cases. It means that only two unit tests are needed here to get a 100% of coverage but we could imagine a real function which contains multiple conditions or includes several calls to another functions and so to reach the 100% of coverage, much more tests will be needed.
+
+[Example of coverage tools](https://stackify.com/code-coverage-tools/)
