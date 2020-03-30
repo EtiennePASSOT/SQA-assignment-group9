@@ -3,10 +3,13 @@
 # Task estimation
 
 ### Project estimation
+
 **What's a project ?**
+
 A project is defined by "an individual or collaborative enterprise that is carefully planned to achieve a particular aim".
 
-Before defining a task, we need to define the overall project. That is, we need to need to think about several points that will help us to better define later the project tasks and their estimation.
+Before defining a task, we need to define the overall project. That is, we need to think about several points that will help us to better define later the project tasks and their estimation.
+
 The subject must be clarified to avoid confusion and misunderstanding during the project development. To ensure the project is understood by the whole team, meetings must be organized frequently during which:
 
 - [ ] Requirements should be defined or redefined
