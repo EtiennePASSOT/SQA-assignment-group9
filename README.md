@@ -40,3 +40,23 @@ Pair programming is therefore a good alternative to development alone. It allows
 [Read More](https://en.wikipedia.org/wiki/Pair_programming)
 
 ---
+
+### Continuous integration
+
+**What's continuous integration?**
+
+Continous integration could be defined as a set of pratices in programming to ensure that the overall project is not impacted by a piece of code or changes pushed by someone from the developpers team.
+
+**Continuous integegration goals**
+
+The general purpose of continuous integration is to have unit tests on each part of the project that will be passed at each push on a branch to ensure that it will not "break" another part of the project. It may be used in a pull request for example, if the tests are all passed, then it can be merge if the reviewers aggreed on the code proposed. It is a way to ensure that developpers are coding something effectively by thinking about it before and not just pushing something working but mostly not adding a bug that will be issued later.
+
+In general, it's only a part of a whole pipeline including several steps such as pull request and deployement
+
+**Deployment pipeline**
+
+Deployment pipeline is a very good practice but not used enough in practice in many companies not specialized in software development because it needs to allocate time to construct an effective pipeline as well as human resources and the companies give priority to the product development rather than the production pipeline.
+
+[Read more about deployment pipeline](https://medium.com/the-making-of-whereby/what-is-a-deployment-pipeline-and-how-it-helps-software-development-teams-6cb29917ceea)
+
+---
