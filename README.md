@@ -40,7 +40,6 @@ Pair programming is therefore a good alternative to development alone. It allows
 [Read More](https://en.wikipedia.org/wiki/Pair_programming)
 
 ---
-
 ### Continuous integration
 
 **What's continuous integration?**
@@ -58,5 +57,22 @@ In general, it's only a part of a whole pipeline including several steps such as
 Deployment pipeline is a very good practice but not used enough in practice in many companies not specialized in software development because it needs to allocate time to construct an effective pipeline as well as human resources and the companies give priority to the product development rather than the production pipeline.
 
 [Read more about deployment pipeline](https://medium.com/the-making-of-whereby/what-is-a-deployment-pipeline-and-how-it-helps-software-development-teams-6cb29917ceea)
+
+---
+
+### Integration tools
+
+As said above, continuous integration is an important practice in software development and nowadays there are many tools that can be used to easily setup the integration part in your project such as:
+
+* TravisCI
+* CircleCI
+* Jenkins
+* ...
+
+Most of them could be easily integrated with GitHub, GitLab etc. in order to as mentionned before, create a pull request with a merge restriction until all unit tests are passing.
+
+But, continuous integration is only a part of the pipeline, other tools are available to get more information about the code tested such as coverage tools.
+
+[Example of integration tools](https://code-maze.com/top-8-continuous-integration-tools/)
 
 ---
