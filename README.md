@@ -6,6 +6,7 @@ Below, we will explain the do's and don'ts to follow in order to carry out a pro
 
 * [Task Estimation](Task-estimation)
 * [Coding Standards](Coding-standards)
+The "Coding Standard" section will explain what coding style is through several examples and will also show you several computer language conventions.
 * [Code Reviews](Code-reviews)
 
 # Task estimation
