@@ -51,17 +51,24 @@ This method includes several roles that the whole team must play and it's very h
 
 **SCRUM Master**
 
+The Scrum Master is first and foremost a member of the project team, he is not a superior but rather a coach, these main tasks are listed below:
+
 - Ensures that Scrum's principles and values are respected.
 - Facilitates communication within the team.
 - Seeks to improve the productivity and know-how of his team.
 
 **The team**
 
+The team is the heart of the SCRUM method, without a team, no work done, it seems logical. They do not have defined roles, it will mostly depend on the type of project. 
+Here are the main characteristics of a team:
+
 - No definite role: architect, developer, tester.
 - All team members bring their know-how to accomplish the tasks.
 - Sizes from 6 to 10 people in general and up to 200 people in particular.
 
 **Product Owner**
+
+Within a Scrum team, the Product Owner makes the link between the business part and the technical part of the project, here are his main objectives: 
 
 - Business expert, defines functional specifications
 - Prioritizes the features to be developed or corrected
