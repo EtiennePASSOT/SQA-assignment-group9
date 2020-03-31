@@ -10,6 +10,44 @@ Below, we will explain the do's and don'ts to follow in order to carry out a pro
 
 # Task estimation
 
+### Project estimation
+
+**What's a project ?**
+
+A project is defined by "an individual or collaborative enterprise that is carefully planned to achieve a particular aim".
+
+Before defining a task, we need to define the overall project. That is, we need to think about several points that will help us to better define later the project tasks and their estimation.
+
+The subject must be clarified to avoid confusion and misunderstanding during the project development. To ensure the project is understood by the whole team, meetings must be organized frequently during which:
+
+- [ ] Requirements should be defined or redefined
+- [ ] Long-term, mid-term and short-term objectives are then defined or redefined
+- [ ] In some case, a new specific feature asked by the client may be defined
+- [ ] All the tasks that need to be done are defined
+- [ ] Team members that will be involved
+- [ ] Project deadline might be defined
+
+The above points are essential to plan the project the best we can. It will be important to repeat as much as possible this kind of meeting to ensure the project is going well over the time. Doing frequently meetings allow the whole team to be aware of the project advancement, if there is something new or an issue that must be treated in urge. It's also a way to ensure that everyone is working efficiently on the project priorities.
+
+---
+
+### Task estimation
+
+**What's a task ?**
+
+A task is defined by "a piece of work to be done or undertaken". So, in software progamming for example, a task could be a feature, a code review as well as writting documentation or resolving an issue.
+
+**How to estimate a task ?**
+
+As seen before with project estimation, several steps are needed to correctly and efficiently estimate a task duration. Some of these are also applicable to the task scope.
+We will need to estimate not only the time we will need to accomplish the task but also many other things like human resources needed to handle the task, infrastructure cost, meetings needed to follow the task advancement, code reviews and many more.
+
+**Task estimation cons and pros**
+
+When talking about project or task estimation we obviously think about how the estimations will help the team to work efficiently and gain time on a project. But most of the time we don't take into account that taking too much time on estimations is also a lost of time in the sense that estimating could save us time thanks to a better organization but it's only worth if it's frequently done with short estimation and relatively quick decisions.
+
+[Read more about project and task estimation](https://medium.com/globalluxsoft/time-estimation-in-software-development-a4a495c8eb6c)
+
 # Coding standards
 ---
 ### Coding Style
