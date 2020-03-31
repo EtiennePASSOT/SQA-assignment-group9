@@ -5,8 +5,11 @@ In order to work properly and properly organize a development project, it is adv
 Below, we will explain the do's and don'ts to follow in order to carry out a project in good conditions. These are tips, it's up to you to find what works best for you.
 
 * [Task Estimation](Task-estimation)
+The "Task Estimation" section will explain what a project is, what a task is and how to estimate it. We will also talk about the "SCRUM" method.
 * [Coding Standards](Coding-standards)
+The "Coding Standard" section will explain what coding style is through several examples and will also show you several computer language conventions.
 * [Code Reviews](Code-reviews)
+And finally, the "Code Reviews" section will tell you about peer programming, the different ways to do a code review and the importance of team spirit and communication within an organization.
 
 # Task estimation
 
