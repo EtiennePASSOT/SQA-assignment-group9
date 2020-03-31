@@ -45,7 +45,7 @@ When talking about project or task estimation we obviously think about how the e
 **What's SCRUM method ?**
 
 Scrum is an agile method dedicated to "project management". This management method, or rather this Project Management Framework, aims to improve the productivity of your team.
-This method includes several roles that the whole team must play and it's very helpfull to the task estimation.
+This method includes several roles that the whole team must play and it's very helpful to the task estimation.
 
 ### SCRUM method roles
 
@@ -95,7 +95,7 @@ Before each sprint, we organize a planning meeting, the sprint planning meeting.
 
 ### The scrimmage
 
-During the sprint, a progress meeting (about 15 min) is held every day with all team members to ensure that the sprint objectives will be met, this is the Scrum or Scrum. Each day, after the Scrum meeting, the Scrum Master maintains a chart called the sprint burndown chart. This chart gives a very good view of what has been done and the pace of the team's work. It also makes it possible to anticipate whether all the stories in the Sprint Backlog will be completed at the end of the iteration or not.
+During the sprint, a progress meeting (about 15 min) is held every day with all team members to ensure that the sprint objectives will be met, this is the Scrum. Each day, after the Scrum meeting, the Scrum Master maintains a chart called the sprint burndown chart. This chart gives a very good view of what has been done and the pace of the team's work. It also makes it possible to anticipate whether all the stories in the Sprint Backlog will be completed at the end of the iteration or not.
 
 This meeting has not only a purely informative purpose, but also to stimulate the team spirit and the level of commitment of each team member to the project. During the meeting each team member should speak and present mainly the following things:
 
