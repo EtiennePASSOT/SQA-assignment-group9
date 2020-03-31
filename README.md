@@ -7,6 +7,7 @@ Below, we will explain the do's and don'ts to follow in order to carry out a pro
 * [Task Estimation](Task-estimation)
 * [Coding Standards](Coding-standards)
 * [Code Reviews](Code-reviews)
+And finally, the "Code Reviews" section will tell you about peer programming, the different ways to do a code review and the importance of team spirit and communication within an organization.
 
 # Task estimation
 
