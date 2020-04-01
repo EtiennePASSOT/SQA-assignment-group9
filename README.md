@@ -38,6 +38,8 @@ The subject must be clarified to avoid confusion and misunderstanding during the
 
 The above points are essential to plan the project the best we can. It will be important to repeat as much as possible this kind of meeting to ensure the project is going well over the time. Doing frequently meetings allow the whole team to be aware of the project advancement, if there is something new or an issue that must be treated in urge. It's also a way to ensure that everyone is working efficiently on the project priorities.
 
+[Read more about project estimation](https://medium.com/globalluxsoft/time-estimation-in-software-development-a4a495c8eb6c)
+
 ---
 
 ### Task estimation
@@ -55,7 +57,7 @@ We will need to estimate not only the time we will need to accomplish the task b
 
 When talking about project or task estimation we obviously think about how the estimations will help the team to work efficiently and gain time on a project. But most of the time we don't take into account that taking too much time on estimations is also a lost of time in the sense that estimating could save us time thanks to a better organization but it's only worth if it's frequently done with short estimation and relatively quick decisions.
 
-[Read more about project and task estimation](https://medium.com/globalluxsoft/time-estimation-in-software-development-a4a495c8eb6c)
+[Tips for task estimating](https://www.projectmanager.com/blog/5-tips-for-task-estimating)
 
 ---
 
