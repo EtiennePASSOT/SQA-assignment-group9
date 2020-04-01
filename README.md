@@ -517,15 +517,18 @@ It is possible with some tools like Trello or Github project to go further.
 These two tools allow you to create action lists more detailed than a simple checklist. You can create lists and detail the checklist, comment on it, assign people to the task. Several other options are available that you can discover by testing the application and choose the one that suits you.
 In the case of Trello and Github Project, you can also automate tasks related to git commits. For example, when the task number (which is called a ticket) is quoted in a commit, the task is checked.
 
-###Convention Check
+### Convention Check
 
 **What's convention check ?**
+
 The convention checks and verifies compliance with the code standards and good practices of the languages in question.
 
 **How to check ?**
+
 This can be checked simply by rereading the code (it is more efficient to read another developer's code to better spot errors) or/and using automated tools called coding-style checkers. There are many of these on github for many different languages.
 
 **Help to dev**
+
 In order to produce clean code with development standards, you can also use tools on text editors (VScode, Atom ...) or IDE (Jetbrain ...). In all these softwares, we can install modules that allow us to correct our convention errors such as spaces, indentation or even variable declaration.
 
 So there are different solutions to check the good respect of the standards of your code. All these solutions have been created to help the developer in his work. It's up to each one to choose the tool that suits him best
