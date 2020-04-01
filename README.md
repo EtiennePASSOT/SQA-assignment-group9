@@ -49,6 +49,8 @@ This method includes several roles that the whole team must play and it's very h
 
 ### SCRUM method roles
 
+ ![alt text](https://cadenture.com/images/solution/scrumrole.png) 
+
 **SCRUM Master**
 
 The Scrum Master is first and foremost a member of the project team, he is not a superior but rather a coach, these main tasks are listed below:
@@ -78,6 +80,7 @@ Within a Scrum team, the Product Owner makes the link between the business part 
 ### Sprints
 
 The Scrum life cycle is punctuated by iterations of a few weeks, the sprints.
+The duration of a sprint is generally between 5 days to 2 weeks.
 
 ### Product backlog
 
