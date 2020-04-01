@@ -1,5 +1,16 @@
 # Introduction
 
+In order to work properly and properly organize a development project, it is advisable to follow several methods.
+
+Below, we will explain the do's and don'ts to follow in order to carry out a project in good conditions. These are tips, it's up to you to find what works best for you.
+
+* [Task Estimation](Task-estimation)
+The "Task Estimation" section will explain what a project is, what a task is and how to estimate it. We will also talk about the "SCRUM" method.
+* [Coding Standards](Coding-standards)
+The "Coding Standard" section will explain what coding style is through several examples and will also show you several computer language conventions.
+* [Code Reviews](Code-reviews)
+And finally, the "Code Reviews" section will tell you about peer programming, the different ways to do a code review and the importance of team spirit and communication within an organization.
+
 # Task estimation
 
 ### Project estimation
@@ -122,6 +133,57 @@ Because of its values, Scrum advocates adaptability, under the effect of the exp
 [Read more about SCRUM Method](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 # Coding standards
+
+To begin, in order for the working group to be effective and coordinated, members need to put themselves agree on several points:
+### Naming Convention
+
+A naming convention in programming is a set of rules and coding standards for choosing the rules that will make up our source code, file identifiers and documentation. The goal is to make source code easier to read with less understanding effort to do (as if we were talking the same language and which we did not need to translate in our head). It also improves the appearance code, to avoid names that are too long or abbreviations and name identifiers that would not be understandable only by for the author of the code.
+
+Each convention has its advantages and disadvantages depending on the languages, and each person can have their preferences. So, it is very important that the group that will work together on the same project meet upstream of the project to agree on these rules to be established. It is also necessary that the potentials groups that will work together are aware of these conventions chosen to respect them or, at least, understand code more easily when they need to read or work on it.
+
+For example, there are several typographic standards for naming variables:
+* variable_name in snake case (used in PHP, Ruby or Python)
+* variableName in camelCase (found mainly in JavaScript, Java, C ++ or C #)
+* VariableName in PascalCase (often used to name classes in PHP)
+* variable-name in kebab-case (generally used in URLs)
+
+[Read more](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)
+
+These same conventions can be used to define function names or file names.
+
+However, beware, these naming rules don't stop you from thinking. So you have to take an account other elements taken into account such as:
+
+The meaning of the name of the variable we are going to name. It has to make sense for the oncomprehend its meaning in function.
+
+If my function is written like this:
+```
+if (idx < 18) {
+    var = var + 1;
+    return false;
+} else {
+    return true;  
+}
+```
+Or like this:
+```
+if (age < 18) {
+    year = year + 1;
+    return false;
+} else {
+    return true;
+}
+
+```
+The last is more meaningful and is more comprehensive thanks to the name and its easily identifiable role from the first reading. The same must be done with the function names!
+
+Then remember to respect these rules in a consistent way so that our reading of the code is not disturbed by changes without explanation.
+
+Also be careful not to reuse the same variable name in the same class in different contexts, this provides more simplicity for understanding and maintainability.
+
+Do not use a long name, it makes the code more difficult to read and can make the compilation more difficult with some compilers.
+
+If you want other do's and don'ts to make sure you have a meaningful and meaningful code, I advise you to take a look [over here](https://dzone.com/articles/best-practices-variable-and)
+
 ---
 ### Coding Style
 
@@ -258,7 +320,41 @@ Here is a non-exhaustive list of Symfony conventions
 [Read more](https://symfony.com/doc/current/contributing/code/standards.html)
 
 ---
+### Comments Standards
 
+**When should we comment?**
+When the need or need comfort required so that other group members can understand easily function and functionality.
+
+Remember that the comments are portions of the source code disregarded by the compiler or interpreter, because they are not necessary for the program to run. They are usually inserted in the code so that it is easy to understand and that it can be changed easily in the  future.
+
+Developer tends to underestimate the benefits of commenting, but comment **!=** document.
+
+Let us separate once and for all the expression document to comment.
+
+Documenting means providing a description of its application, all of its public access points and dependencies.
+
+Examples:
+
+```
+/*
+    Comments
+*/
+```
+Or:
+```
+// Comments
+```
+Or:
+```
+/**
+* Comments
+*/
+```
+Or again:
+```
+x = x + 1                 # Increment x
+```
+[Different way to comment](https://en.wikipedia.org/wiki/Comment_(computer_programming))
 
 # Code reviews
 
