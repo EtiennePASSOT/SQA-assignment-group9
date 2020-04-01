@@ -4,43 +4,43 @@ In order to work properly and properly organize a development project, it is adv
 
 Below, we will explain the do's and don'ts to follow in order to carry out a project in good conditions. These are tips, it's up to you to find what works best for you.
 
-* [**Task Estimation**](Task-Estimation)
+* [**Task Estimation**](#task-estimation)
 
-    1. [Project Estimation](Project-Estimation)
+    1. [Project Estimation](#project-estimation)
     
-    2. [Task Estimation](Task-Estimation)
+    2. [Task Estimation](#task-estimation)
     
-    3. [SCRUM Method](SCRUM-Method)
+    3. [SCRUM Method](#scrum-method)
 
 The "Task Estimation" section will explain what a project is, what a task is and how to estimate it. We will also talk about the "SCRUM" method.
 
-* [**Coding Standards**](Coding-Standards)
+* [**Coding Standards**](#coding-standards)
 
-     1. [Naming Convention](Naming-Convention)
+     1. [Naming Convention](#naming-convention)
      
-     2. [Coding Style](Coding-Style)
+     2. [Coding Style](#coding-style)
      
-     3. [Languages Convention](Languages-Convention)
+     3. [Languages Convention](#languages-convention)
      
-     4. [Comments Standards](Comments-Standards)
+     4. [Comments Standards](#comments-standards)
 
 The "Coding Standard" section will explain what coding style is through several examples and will also show you several computer language conventions.
 
-* [**Code Reviews**](Code-Reviews)
+* [**Code Reviews**](#code-reviews)
 
-     1. [Pair Programming](Pair-Programming)
+     1. [Pair Programming](#pair-programming)
      
-     2. [Pull Request](Pull-Request)
+     2. [Pull Request](#pull-request)
      
-     3. [Continuous Integration](Continuous-Integration)
+     3. [Continuous Integration](#continuous-integration)
      
-     4. [Integration Tools](Integration-Tools)
+     4. [Integration Tools](#integration-tools)
      
-     5. [Coverage Tools](Coverage-Tools)
+     5. [Coverage Tools](#coverage-tools)
      
-     6. [Checklist](Checklist)
+     6. [Checklist](#checklist)
      
-     7. [Convetion Check](Convention-Check)
+     7. [Convention Check](#convention-check)
 
 And finally, the "Code Reviews" section will tell you about peer programming, the different ways to do a code review and the importance of team spirit and communication within an organization.
 
