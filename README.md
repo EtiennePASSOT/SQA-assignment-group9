@@ -4,22 +4,50 @@ In order to work properly and properly organize a development project, it is adv
 
 Below, we will explain the do's and don'ts to follow in order to carry out a project in good conditions. These are tips, it's up to you to find what works best for you.
 
-* [Task Estimation](Task-estimation)
+* [**Task Estimation**](#task-estimation)
+
+    1. [Project Estimation](#project-estimation)
+    
+    2. [Task Estimation](#task-estimation-1)
+    
+    3. [SCRUM Method](#scrum-method)
 
 The "Task Estimation" section will explain what a project is, what a task is and how to estimate it. We will also talk about the "SCRUM" method.
 
-* [Coding Standards](Coding-standards)
+* [**Coding Standards**](#coding-standards)
+
+     1. [Naming Convention](#naming-convention)
+     
+     2. [Coding Style](#coding-style)
+     
+     3. [Languages Convention](#languages-convention)
+     
+     4. [Comments Standards](#comments-standards)
 
 The "Coding Standard" section will explain what coding style is through several examples and will also show you several computer language conventions.
 
-* [Code Reviews](Code-reviews)
+* [**Code Reviews**](#code-reviews)
+
+     1. [Pair Programming](#pair-programming)
+     
+     2. [Pull Request](#pull-request)
+     
+     3. [Continuous Integration](#continuous-integration)
+     
+     4. [Integration Tools](#integration-tools)
+     
+     5. [Coverage Tools](#coverage-tools)
+     
+     6. [Checklist](#checklist)
+     
+     7. [Convention Check](#convention-check)
 
 And finally, the "Code Reviews" section will tell you about peer programming, the different ways to do a code review and the importance of team spirit and communication within an organization.
 
 
-# Task estimation
+# Task Estimation
 
-### Project estimation
+### Project Estimation
 
 **What's a project ?**
 
@@ -38,9 +66,11 @@ The subject must be clarified to avoid confusion and misunderstanding during the
 
 The above points are essential to plan the project the best we can. It will be important to repeat as much as possible this kind of meeting to ensure the project is going well over the time. Doing frequently meetings allow the whole team to be aware of the project advancement, if there is something new or an issue that must be treated in urge. It's also a way to ensure that everyone is working efficiently on the project priorities.
 
+[Read more about project estimation](https://medium.com/globalluxsoft/time-estimation-in-software-development-a4a495c8eb6c)
+
 ---
 
-### Task estimation
+### Task Estimation
 
 **What's a task ?**
 
@@ -55,11 +85,11 @@ We will need to estimate not only the time we will need to accomplish the task b
 
 When talking about project or task estimation we obviously think about how the estimations will help the team to work efficiently and gain time on a project. But most of the time we don't take into account that taking too much time on estimations is also a lost of time in the sense that estimating could save us time thanks to a better organization but it's only worth if it's frequently done with short estimation and relatively quick decisions.
 
-[Read more about project and task estimation](https://medium.com/globalluxsoft/time-estimation-in-software-development-a4a495c8eb6c)
+[Tips for task estimating](https://www.projectmanager.com/blog/5-tips-for-task-estimating)
 
 ---
 
-### SCRUM method
+### SCRUM Method
 
 **What's SCRUM method ?**
 
@@ -78,7 +108,7 @@ The Scrum Master is first and foremost a member of the project team, he is not a
 - Facilitates communication within the team.
 - Seeks to improve the productivity and know-how of his team.
 
-**The team**
+**The Team**
 
 The team is the heart of the SCRUM method, without a team, no work done, it seems logical. They do not have defined roles, it will mostly depend on the type of project. 
 Here are the main characteristics of a team:
@@ -101,7 +131,9 @@ Within a Scrum team, the Product Owner makes the link between the business part 
 The Scrum life cycle is punctuated by iterations of a few weeks, the sprints.
 The duration of a sprint is generally between 5 days to 2 weeks.
 
-**Product backlog**
+[Read more about Sprints](https://www.bbva.com/en/scrum-methodology-what-is-a-sprint/)
+
+**Product Backlog**
 
 The initial requirements repository is established and prioritized with the customer. It constitutes what is known as the product backlog. It does not necessarily have to contain all the functionalities expected from the beginning of the project, it will evolve during the project in parallel with the customer's needs.
 
@@ -117,6 +149,8 @@ A User Story or Story usually contains the following information :
 - [Estimate] The amount of work required to develop, test, and validate this functionality. The unit of measure can be an ideal number of days (days 100% dedicated to the functionality) or a number of points. Estimates are made on a relative basis by comparing the estimates of completed stories with the story to be estimated.
 - [Demo] A relatively simple test (e.g. export an object in XML then delete it from the database, import it from XML, at the end the object must be in the database). This test is a validation test.
 - [Notes] any other information: clarifications, documentary references
+
+[Read more about User Story](https://en.wikipedia.org/wiki/User_story)
 
 **Sprint planning meeting**
 
@@ -141,7 +175,7 @@ Because of its values, Scrum advocates adaptability, under the effect of the exp
 [Read more about SCRUM Method](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 
-# Coding standards
+# Coding Standards
 
 To begin, in order for the working group to be effective and coordinated, members need to put themselves agree on several points:
 ### Naming Convention
@@ -368,9 +402,9 @@ x = x + 1                 # Increment x
 
 [Different way to comment](https://en.wikipedia.org/wiki/Comment_(computer_programming))
 
-# Code reviews
+# Code Reviews
 
-### Pair programming
+### Pair Programming
 
 **What's pair programming ?**
 
@@ -405,7 +439,7 @@ Pair programming is therefore a good alternative to development alone. It allows
 
 ---
 
-### Pull request
+### Pull Request
 
 **What's a pull request ?**
 
@@ -431,7 +465,7 @@ To finalize your pull create, click on "Create pull request" or the down arrow i
 
 ---
 
-### Continuous integration
+### Continuous Integration
 
 **What's continuous integration?**
 
@@ -451,7 +485,7 @@ Deployment pipeline is a very good practice but not used enough in practice in m
 
 ---
 
-### Integration tools
+### Integration Tools
 
 As said above, continuous integration is an important practice in software development and nowadays there are many tools that can be used to easily setup the integration part in your project such as:
 
@@ -468,7 +502,7 @@ But, continuous integration is only a part of the pipeline, other tools are avai
 
 ---
 
-### Coverage tools
+### Coverage Tools
 
 As mentioned before, coverage tools are another part of a good development pipeline. To explain it in a simple way, they are tools that analyze a piece of code and determine a percentage of line covered by the unit tests we have previously setup.
 The more the percentage is high the more the code is covered by these unit tests.
@@ -518,6 +552,8 @@ Here is a non-exhaustive list of several applications:
 It is possible with some tools like Trello or Github project to go further.
 These two tools allow you to create action lists more detailed than a simple checklist. You can create lists and detail the checklist, comment on it, assign people to the task. Several other options are available that you can discover by testing the application and choose the one that suits you.
 In the case of Trello and Github Project, you can also automate tasks related to git commits. For example, when the task number (which is called a ticket) is quoted in a commit, the task is checked.
+
+---
 
 ### Convention Check
 
