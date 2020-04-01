@@ -5,11 +5,17 @@ In order to work properly and properly organize a development project, it is adv
 Below, we will explain the do's and don'ts to follow in order to carry out a project in good conditions. These are tips, it's up to you to find what works best for you.
 
 * [Task Estimation](Task-estimation)
+
 The "Task Estimation" section will explain what a project is, what a task is and how to estimate it. We will also talk about the "SCRUM" method.
+
 * [Coding Standards](Coding-standards)
+
 The "Coding Standard" section will explain what coding style is through several examples and will also show you several computer language conventions.
+
 * [Code Reviews](Code-reviews)
+
 And finally, the "Code Reviews" section will tell you about peer programming, the different ways to do a code review and the importance of team spirit and communication within an organization.
+
 
 # Task estimation
 
@@ -51,6 +57,8 @@ When talking about project or task estimation we obviously think about how the e
 
 [Read more about project and task estimation](https://medium.com/globalluxsoft/time-estimation-in-software-development-a4a495c8eb6c)
 
+---
+
 ### SCRUM method
 
 **What's SCRUM method ?**
@@ -58,7 +66,7 @@ When talking about project or task estimation we obviously think about how the e
 Scrum is an agile method dedicated to "project management". This management method, or rather this Project Management Framework, aims to improve the productivity of your team.
 This method includes several roles that the whole team must play and it's very helpful to the task estimation.
 
-### SCRUM method roles
+**SCRUM method roles**
 
  ![alt text](https://cadenture.com/images/solution/scrumrole.png) 
 
@@ -88,16 +96,16 @@ Within a Scrum team, the Product Owner makes the link between the business part 
 - Validates the developed functionalities
 - Plays the role of the customer
 
-### Sprints
+**Sprints**
 
 The Scrum life cycle is punctuated by iterations of a few weeks, the sprints.
 The duration of a sprint is generally between 5 days to 2 weeks.
 
-### Product backlog
+**Product backlog**
 
 The initial requirements repository is established and prioritized with the customer. It constitutes what is known as the product backlog. It does not necessarily have to contain all the functionalities expected from the beginning of the project, it will evolve during the project in parallel with the customer's needs.
 
-### User Story
+**User Story**
 
 The features described are called User Stories and are described using the terminology used by the client.
 
@@ -110,11 +118,11 @@ A User Story or Story usually contains the following information :
 - [Demo] A relatively simple test (e.g. export an object in XML then delete it from the database, import it from XML, at the end the object must be in the database). This test is a validation test.
 - [Notes] any other information: clarifications, documentary references
 
-### Sprint planning meeting
+**Sprint planning meeting**
 
 Before each sprint, we organize a planning meeting, the sprint planning meeting. This planning meeting selects from the product backlog the most priority requirements for the customer. They will be developed, tested and delivered to the customer at the end of the sprint. They constitute the sprint backlog, a sub-set of the product backlog.
 
-### The scrimmage
+**The scrimmage**
 
 During the sprint, a progress meeting (about 15 min) is held every day with all team members to ensure that the sprint objectives will be met, this is the Scrum. Each day, after the Scrum meeting, the Scrum Master maintains a chart called the sprint burndown chart. This chart gives a very good view of what has been done and the pace of the team's work. It also makes it possible to anticipate whether all the stories in the Sprint Backlog will be completed at the end of the iteration or not.
 
@@ -131,6 +139,7 @@ At the end of a sprint, the client is given a demonstration of the latest develo
 Because of its values, Scrum advocates adaptability, under the effect of the experience acquired and the specificities of the project, which brings it closer to the Toyota production method. Visibility, to evaluate the results of the process. Inspection, to verify deviations from the initial objective.
 
 [Read more about SCRUM Method](https://en.wikipedia.org/wiki/Scrum_(software_development))
+
 
 # Coding standards
 
@@ -172,7 +181,6 @@ if (age < 18) {
 } else {
     return true;
 }
-
 ```
 The last is more meaningful and is more comprehensive thanks to the name and its easily identifiable role from the first reading. The same must be done with the function names!
 
@@ -188,6 +196,7 @@ If you want other do's and don'ts to make sure you have a meaningful and meaning
 ### Coding Style
 
 **What's coding style ?**
+
 The coding style is a set of rules used in programming when writing source code. These rules allow to have symmetrical source codes no matter the developer and therefore a standard code readable and understandable by all. It is also a good way to avoid errors when writing code.
 
 One of the most important things of coding style is indentation. It allows to quickly identify the different code blocks, functions and methods.
@@ -207,7 +216,6 @@ if  ( hours   < 24
 return true;
 else
 return false;
-
 ```
 
 These two blocks of code make it possible to perform exactly the same action and yet the first block is much simpler to read and it is also easier to identify the different conditions (and therefore to identify potential errors).
@@ -275,7 +283,7 @@ Each language has its own conventions but some are common to all languages :
 * Keep the code simple
 
 
-##### Convention in C language
+**Convention in C language**
 
 To write code following best practices, you must first learn about naming conventions.
 For example in the C language :
@@ -301,11 +309,13 @@ In C language, the files are organized this way :
 
 [Read more](https://www.topcoder.com/coding-best-practices/)
 
-##### Convention in Symfony Framework
+**Convention in Symfony Framework**
 
-The symfony framework also follows the writing of functions, methods and variables in [camelCase](https://en.wikipedia.org/wiki/Camel_case)
-For the configuration of parameters and twig template variables, use the [snake_case](https://en.wikipedia.org/wiki/Snake_case)
-For naming PHP namespaces and classes, use the [UpperCamelCase](https://en.wikipedia.org/wiki/Camel_case)
+The symfony framework also follows the writing of functions, methods and variables in [camelCase](https://en.wikipedia.org/wiki/Camel_case) .
+
+For the configuration of parameters and twig template variables, use the [snake_case](https://en.wikipedia.org/wiki/Snake_case) .
+
+For naming PHP namespaces and classes, use the [UpperCamelCase](https://en.wikipedia.org/wiki/Camel_case) .
 
 
 The naming conventions used are different depending on what is needed, which makes it possible to quickly identify variables and functions of PHP classes for example.
@@ -313,7 +323,7 @@ The naming conventions used are different depending on what is needed, which mak
 Here is a non-exhaustive list of Symfony conventions
 * Add a single space after each comma delimiter;
 * Add a single space around binary operators (==, &&, ...), with the exception of the concatenation (.) operator;
-* Use return null; when a function explicitly returns null values and use return; when the function returns void values;
+* Use ``return null;`` when a function explicitly returns null values and use ``return;`` when the function returns void values;
 * Declare public methods first, then protected ones and finally private ones. The exceptions to this rule are the class constructor and the setUp() and tearDown() methods of PHPUnit tests, which must always be the first methods to increase readability;
 
 
@@ -323,6 +333,7 @@ Here is a non-exhaustive list of Symfony conventions
 ### Comments Standards
 
 **When should we comment?**
+
 When the need or need comfort required so that other group members can understand easily function and functionality.
 
 Remember that the comments are portions of the source code disregarded by the compiler or interpreter, because they are not necessary for the program to run. They are usually inserted in the code so that it is easy to understand and that it can be changed easily in the  future.
@@ -354,11 +365,11 @@ Or again:
 ```
 x = x + 1                 # Increment x
 ```
+
 [Different way to comment](https://en.wikipedia.org/wiki/Comment_(computer_programming))
 
 # Code reviews
 
----
 ### Pair programming
 
 **What's pair programming ?**
@@ -366,6 +377,7 @@ x = x + 1                 # Increment x
 Pair programming is a development method where two developers work on the same computer. The first, the one who writes the code is called the driver and the second, the observer, assists the driver by correcting potential errors and proposing development alternatives.
 
 **Quality and Productivity**
+
 Even though this practice is often abandoned by companies that think it is a waste of human resources, several studies have looked at the relative productivity of a pair of programmers versus a single programmer.
 This study has proven that in terms of productivity, pair programming allows to accelerate development times especially for projects requiring a quick implementation of the solution on the market.
 Pair programming allows a faster bug detection thanks to the observation of the pair programmer who realizes a code review in real time and throughout the activity. The applications created are therefore of better quality with a testing requiring less work.
@@ -477,7 +489,7 @@ In the code above, there are only two possibilities, either you enter in the if 
 
 ---
 
-###Checklist
+### Checklist
 
 **The importance of checklists**
 
