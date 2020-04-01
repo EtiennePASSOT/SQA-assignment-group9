@@ -181,7 +181,6 @@ if (age < 18) {
 } else {
     return true;
 }
-
 ```
 The last is more meaningful and is more comprehensive thanks to the name and its easily identifiable role from the first reading. The same must be done with the function names!
 
@@ -217,7 +216,6 @@ if  ( hours   < 24
 return true;
 else
 return false;
-
 ```
 
 These two blocks of code make it possible to perform exactly the same action and yet the first block is much simpler to read and it is also easier to identify the different conditions (and therefore to identify potential errors).
@@ -313,9 +311,11 @@ In C language, the files are organized this way :
 
 **Convention in Symfony Framework**
 
-The symfony framework also follows the writing of functions, methods and variables in [camelCase](https://en.wikipedia.org/wiki/Camel_case)
-For the configuration of parameters and twig template variables, use the [snake_case](https://en.wikipedia.org/wiki/Snake_case)
-For naming PHP namespaces and classes, use the [UpperCamelCase](https://en.wikipedia.org/wiki/Camel_case)
+The symfony framework also follows the writing of functions, methods and variables in [camelCase](https://en.wikipedia.org/wiki/Camel_case) .
+
+For the configuration of parameters and twig template variables, use the [snake_case](https://en.wikipedia.org/wiki/Snake_case) .
+
+For naming PHP namespaces and classes, use the [UpperCamelCase](https://en.wikipedia.org/wiki/Camel_case) .
 
 
 The naming conventions used are different depending on what is needed, which makes it possible to quickly identify variables and functions of PHP classes for example.
@@ -323,7 +323,7 @@ The naming conventions used are different depending on what is needed, which mak
 Here is a non-exhaustive list of Symfony conventions
 * Add a single space after each comma delimiter;
 * Add a single space around binary operators (==, &&, ...), with the exception of the concatenation (.) operator;
-* Use return null; when a function explicitly returns null values and use return; when the function returns void values;
+* Use ``return null;`` when a function explicitly returns null values and use ``return;`` when the function returns void values;
 * Declare public methods first, then protected ones and finally private ones. The exceptions to this rule are the class constructor and the setUp() and tearDown() methods of PHPUnit tests, which must always be the first methods to increase readability;
 
 
