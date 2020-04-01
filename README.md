@@ -4,22 +4,50 @@ In order to work properly and properly organize a development project, it is adv
 
 Below, we will explain the do's and don'ts to follow in order to carry out a project in good conditions. These are tips, it's up to you to find what works best for you.
 
-* [Task Estimation](Task-estimation)
+* [**Task Estimation**](Task-Estimation)
+
+    1. [Project Estimation](Project-Estimation)
+    
+    2. [Task Estimation](Task-Estimation)
+    
+    3. [SCRUM Method](SCRUM-Method)
 
 The "Task Estimation" section will explain what a project is, what a task is and how to estimate it. We will also talk about the "SCRUM" method.
 
-* [Coding Standards](Coding-standards)
+* [**Coding Standards**](Coding-Standards)
+
+     1. [Naming Convention](Naming-Convention)
+     
+     2. [Coding Style](Coding-Style)
+     
+     3. [Languages Convention](Languages-Convention)
+     
+     4. [Comments Standards](Comments-Standards)
 
 The "Coding Standard" section will explain what coding style is through several examples and will also show you several computer language conventions.
 
-* [Code Reviews](Code-reviews)
+* [**Code Reviews**](Code-Reviews)
+
+     1. [Pair Programming](Pair-Programming)
+     
+     2. [Pull Request](Pull-Request)
+     
+     3. [Continuous Integration](Continuous-Integration)
+     
+     4. [Integration Tools](Integration-Tools)
+     
+     5. [Coverage Tools](Coverage-Tools)
+     
+     6. [Checklist](Checklist)
+     
+     7. [Convetion Check](Convention-Check)
 
 And finally, the "Code Reviews" section will tell you about peer programming, the different ways to do a code review and the importance of team spirit and communication within an organization.
 
 
-# Task estimation
+# Task Estimation
 
-### Project estimation
+### Project Estimation
 
 **What's a project ?**
 
@@ -42,7 +70,7 @@ The above points are essential to plan the project the best we can. It will be i
 
 ---
 
-### Task estimation
+### Task Estimation
 
 **What's a task ?**
 
@@ -61,7 +89,7 @@ When talking about project or task estimation we obviously think about how the e
 
 ---
 
-### SCRUM method
+### SCRUM Method
 
 **What's SCRUM method ?**
 
@@ -80,7 +108,7 @@ The Scrum Master is first and foremost a member of the project team, he is not a
 - Facilitates communication within the team.
 - Seeks to improve the productivity and know-how of his team.
 
-**The team**
+**The Team**
 
 The team is the heart of the SCRUM method, without a team, no work done, it seems logical. They do not have defined roles, it will mostly depend on the type of project. 
 Here are the main characteristics of a team:
@@ -103,7 +131,7 @@ Within a Scrum team, the Product Owner makes the link between the business part 
 The Scrum life cycle is punctuated by iterations of a few weeks, the sprints.
 The duration of a sprint is generally between 5 days to 2 weeks.
 
-**Product backlog**
+**Product Backlog**
 
 The initial requirements repository is established and prioritized with the customer. It constitutes what is known as the product backlog. It does not necessarily have to contain all the functionalities expected from the beginning of the project, it will evolve during the project in parallel with the customer's needs.
 
@@ -143,7 +171,7 @@ Because of its values, Scrum advocates adaptability, under the effect of the exp
 [Read more about SCRUM Method](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 
-# Coding standards
+# Coding Standards
 
 To begin, in order for the working group to be effective and coordinated, members need to put themselves agree on several points:
 ### Naming Convention
@@ -370,9 +398,9 @@ x = x + 1                 # Increment x
 
 [Different way to comment](https://en.wikipedia.org/wiki/Comment_(computer_programming))
 
-# Code reviews
+# Code Reviews
 
-### Pair programming
+### Pair Programming
 
 **What's pair programming ?**
 
@@ -407,7 +435,7 @@ Pair programming is therefore a good alternative to development alone. It allows
 
 ---
 
-### Pull request
+### Pull Request
 
 **What's a pull request ?**
 
@@ -431,7 +459,7 @@ To finalize your pull create, click on "Create pull request" or the down arrow i
 
 ---
 
-### Continuous integration
+### Continuous Integration
 
 **What's continuous integration?**
 
@@ -451,7 +479,7 @@ Deployment pipeline is a very good practice but not used enough in practice in m
 
 ---
 
-### Integration tools
+### Integration Tools
 
 As said above, continuous integration is an important practice in software development and nowadays there are many tools that can be used to easily setup the integration part in your project such as:
 
@@ -468,7 +496,7 @@ But, continuous integration is only a part of the pipeline, other tools are avai
 
 ---
 
-### Coverage tools
+### Coverage Tools
 
 As mentioned before, coverage tools are another part of a good development pipeline. To explain it in a simple way, they are tools that analyze a piece of code and determine a percentage of line covered by the unit tests we have previously setup.
 The more the percentage is high the more the code is covered by these unit tests.
