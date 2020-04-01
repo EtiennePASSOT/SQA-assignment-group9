@@ -312,6 +312,90 @@ Pair programming is therefore a good alternative to development alone. It allows
 
 ---
 
+### Pull request
+
+**What's a pull request ?**
+
+A pull request in programming could be defined as a way to ask for a code review on a feature or a piece of code we have done and on which we want a feedback from our colleagues. It's a very useful and a common way in programming to ensure that the code is working correctly, following the coding styles and convention that have been chosen for the project and mostly that the piece of code is able to be added to the existing one without any problem.
+
+**How to create a pull request in GitHub**
+
+First, you need to commit and push a piece of code on the branch you are working on. This can be done either on GitHub directly, by using an IDE or even using terminal with Git command.
+
+Then, you have to on your GitHub repository, in the pull request section.
+Click on the button "New pull request", select first the branch where you want to merge the code and second, the branch from which you want to merge i.e the branch where you just pushed your code.
+
+You will see the comparison page which draw you the differences between the two branches you are going to merge including the previous commit on the destination branch if there are already some, and the files that have been updated with their content and more.
+Click on "Create pull request"
+
+Finally, add a title to your pull request and comments if needed. Aside from this, you will be able to assign yourself and people involved if there are some, and select one or more reviewers that must approve your changes before merge.
+To finalize your pull create, click on "Create pull request" or the down arrow if you want to just draft the pull request at the moment.
+
+
+[Read More](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+
+---
+
+### Continuous integration
+
+**What's continuous integration?**
+
+Continous integration could be defined as a set of pratices in programming to ensure that the overall project is not impacted by a piece of code or changes pushed by someone from the developpers team.
+
+**Continuous integegration goals**
+
+The general purpose of continuous integration is to have unit tests on each part of the project that will be passed at each push on a branch to ensure that it will not "break" another part of the project. It may be used in a pull request for example, if the tests are all passed, then it can be merge if the reviewers aggreed on the code proposed. It is a way to ensure that developpers are coding something effectively by thinking about it before and not just pushing something working but mostly not adding a bug that will be issued later.
+
+In general, it's only a part of a whole pipeline including several steps such as pull request and deployement
+
+**Deployment pipeline**
+
+Deployment pipeline is a very good practice but not used enough in practice in many companies not specialized in software development because it needs to allocate time to construct an effective pipeline as well as human resources and the companies give priority to the product development rather than the production pipeline.
+
+[Read more about deployment pipeline](https://medium.com/the-making-of-whereby/what-is-a-deployment-pipeline-and-how-it-helps-software-development-teams-6cb29917ceea)
+
+---
+
+### Integration tools
+
+As said above, continuous integration is an important practice in software development and nowadays there are many tools that can be used to easily setup the integration part in your project such as:
+
+* TravisCI
+* CircleCI
+* Jenkins
+* ...
+
+Most of them could be easily integrated with GitHub, GitLab etc. in order to as mentionned before, create a pull request with a merge restriction until all unit tests are passing.
+
+But, continuous integration is only a part of the pipeline, other tools are available to get more information about the code tested such as coverage tools.
+
+[Example of integration tools](https://code-maze.com/top-8-continuous-integration-tools/)
+
+---
+
+### Coverage tools
+
+As mentioned before, coverage tools are another part of a good development pipeline. To explain it in a simple way, they are tools that analyze a piece of code and determine a percentage of line covered by the unit tests we have previously setup.
+The more the percentage is high the more the code is covered by these unit tests.
+
+**How coverage is calculated**
+
+To determine how much a code is covered by the unit tests, the coverage tools will evaluate a piece of code and all the posssibilities of running this piece of code.
+
+```
+if (age > 13) {
+  return true;
+} else {
+  return false;
+}
+```
+
+In the code above, there are only two possibilities, either you enter in the if scope, either in the else. The tool will so check if the function containing this piece of code is tested on the both cases. It means that only two unit tests are needed here to get a 100% of coverage but we could imagine a real function which contains multiple conditions or includes several calls to another functions and so to reach the 100% of coverage, much more tests will be needed.
+
+[Example of coverage tools](https://stackify.com/code-coverage-tools/)
+
+---
+
 ###Checklist
 
 **The importance of checklists**
