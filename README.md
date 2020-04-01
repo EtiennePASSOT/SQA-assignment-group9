@@ -131,6 +131,8 @@ Within a Scrum team, the Product Owner makes the link between the business part 
 The Scrum life cycle is punctuated by iterations of a few weeks, the sprints.
 The duration of a sprint is generally between 5 days to 2 weeks.
 
+[Read more about Sprints](https://www.bbva.com/en/scrum-methodology-what-is-a-sprint/)
+
 **Product Backlog**
 
 The initial requirements repository is established and prioritized with the customer. It constitutes what is known as the product backlog. It does not necessarily have to contain all the functionalities expected from the beginning of the project, it will evolve during the project in parallel with the customer's needs.
@@ -147,6 +149,8 @@ A User Story or Story usually contains the following information :
 - [Estimate] The amount of work required to develop, test, and validate this functionality. The unit of measure can be an ideal number of days (days 100% dedicated to the functionality) or a number of points. Estimates are made on a relative basis by comparing the estimates of completed stories with the story to be estimated.
 - [Demo] A relatively simple test (e.g. export an object in XML then delete it from the database, import it from XML, at the end the object must be in the database). This test is a validation test.
 - [Notes] any other information: clarifications, documentary references
+
+[Read more about User Story](https://en.wikipedia.org/wiki/User_story)
 
 **Sprint planning meeting**
 
