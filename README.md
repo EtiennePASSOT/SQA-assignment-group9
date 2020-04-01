@@ -411,7 +411,7 @@ Pair programming is therefore a good alternative to development alone. It allows
 
 A pull request in programming could be defined as a way to ask for a code review on a feature or a piece of code we have done and on which we want a feedback from our colleagues. It's a very useful and a common way in programming to ensure that the code is working correctly, following the coding styles and convention that have been chosen for the project and mostly that the piece of code is able to be added to the existing one without any problem.
 
-![alt text](https://www.researchgate.net/figure/Overview-of-the-Code-Review-Process_fig1_328541762)
+![alt text](https://images.app.goo.gl/Zt8RCuZSQAZrd1Ks5)
 
 **How to create a pull request in GitHub**
 
