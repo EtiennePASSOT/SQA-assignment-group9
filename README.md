@@ -551,6 +551,8 @@ It is possible with some tools like Trello or Github project to go further.
 These two tools allow you to create action lists more detailed than a simple checklist. You can create lists and detail the checklist, comment on it, assign people to the task. Several other options are available that you can discover by testing the application and choose the one that suits you.
 In the case of Trello and Github Project, you can also automate tasks related to git commits. For example, when the task number (which is called a ticket) is quoted in a commit, the task is checked.
 
+---
+
 ### Convention Check
 
 **What's convention check ?**
