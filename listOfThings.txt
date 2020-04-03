@@ -1,0 +1,8 @@
+Things that we will do differently next time:
+
+Arrange to work at the same time. 
+Indeed, 3 people worked on the same week, which allowed to advance the parts correctly. But the last person had not planned to work in
+same time as us, so the Pull Requests took time at times and we would have liked to merge our parts faster than that.
+
+Other than that, the communication was good, we all agreed on the commit standards, workflow or Pull Request to use.
+It was a good experience.
